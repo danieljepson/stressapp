@@ -6,6 +6,12 @@ body {
 	background-color: #4775d1 /* blue 1 */;
 	margin:0px;
 	height:100%;
+	  /* code from http://www.w3schools.com/css/css3_gradients.asp */
+	  background: #0000cc; /* For browsers that do not support gradients */
+	  background: -webkit-ease-in-gradient(#0000cc, #00ffff, #339933); /* For Safari 5.1 to 6.0 */
+	  background: -o-ease-in-gradient(#0000cc, #00ffff, #339933); /* For Opera 11.1 to 12.0 */
+	  background: -moz-ease-in-gradient(#0000cc, #00ffff, #339933); /* For Firefox 3.6 to 15 */
+	  background: ease-in-gradient(#0000cc, #00ffff, #339933); /* Standard syntax */
 }
 
 /* Aniamtion code found from W3Schools and their examples, http://www.w3schools.com/css/css3_animations.asp*/
